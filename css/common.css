@@ -1,0 +1,663 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a, a:hover, a:focus{
+	text-decoration: none;
+	color: inherit;
+}
+ul, ol, li{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+body{
+	color: #2e2e2e;
+	background-color: #fcfcfc;
+}
+.container {
+  width: 1200px;
+}
+
+
+.w250{
+	width: 20.8333333333%;
+}
+.w250-sib{
+	width: 79.1666666667%;
+}
+.w320{
+	width: 26.6666666667%;
+}
+.w320-sib{
+	width: 73.3333333333%;
+}
+.w250-sib>div.br,
+.w320-sib>div.br{
+	border: 1px solid #dadada;
+}
+.w66{
+	width: 66px;
+}
+.w250s{
+	width: 25%;
+}
+.w333{
+	width: 33.33333333333333333333%;
+}
+.w500{
+	width: 50%;
+}
+.w700{
+	width: 70%;
+}
+.w700-sib{
+	width: 30%;
+}
+.w750{
+	width: 75%;
+}
+
+
+.mt0{
+	margin-top: 0px!important;
+}
+.mt10{
+	margin-top: 10px!important;
+}
+.mt20{
+	margin-top: 20px!important;
+}
+.mt30{
+	margin-top: 30px!important;
+}
+.mt40{
+	margin-top: 40px!important;
+}
+.mt50{
+	margin-top: 50px!important;
+}
+.mr5{
+	margin-right: 5px!important;
+}
+.mr20{
+	margin-right: 20px!important;
+}
+.mr-80{
+	margin-right: -80px!important;
+}
+.mb0{
+	margin-bottom: 0px!important;
+}
+.mb5{
+	margin-bottom: 5px!important;
+}
+.mb10{
+	margin-bottom: 10px!important;
+}
+.mb20{
+	margin-bottom: 20px!important;
+}
+.mb30{
+	margin-bottom: 30px!important;
+}
+.mb40{
+	margin-bottom: 40px!important;
+}
+.ml20{
+	margin-left: 20px!important;
+}
+.ml40{
+	margin-left: 40px!important;
+}
+.ml50{
+	margin-left: 50px!important;
+}
+.ml-80{
+	margin-left: -80px!important;
+}
+
+.pd10{
+	padding: 10px!important;
+}
+.pt20{
+	padding-top: 20px!important;
+}
+.pt40{
+	padding-top: 40px!important;
+}
+.pr0{
+	padding-right: 0px!important;
+}
+.pr10{
+	padding-right: 10px!important;
+}
+.pr15{
+	padding-right: 15px!important;
+}
+.pr20{
+	padding-right: 20px!important;
+}
+.pr40{
+	padding-right: 40px!important;
+}
+.pr100{
+	padding-right: 100px!important;
+}
+.pr150{
+	padding-right: 150px!important;
+}
+.pb10{
+	padding-bottom: 10px!important;
+}
+.pb20{
+	padding-bottom: 20px!important;
+}
+.pb30{
+	padding-bottom: 30px!important;
+}
+.pl10{
+	padding-left: 10px!important;
+}
+.pl15{
+	padding-left: 15px!important;
+}
+.pl20{
+	padding-left: 20px!important;
+}
+.pl40{
+	padding-left: 40px!important;
+}
+.pl100{
+	padding-left: 100px!important;
+}
+
+.font14{
+	font-size: 14px!important;
+}
+.font16{
+	font-size: 16px!important;
+}
+.font18{
+	font-size: 18px!important;
+}
+.font20{
+	font-size: 20px!important;
+}
+.font22{
+	font-size: 22px!important;
+}
+.font24{
+	font-size: 24px!important;
+}
+.font26{
+	font-size: 26px!important;
+}
+
+
+.scroll-show{
+	position: relative;
+	opacity: 0;
+}
+.show-left{
+	left: 100%;
+}
+.show-right{
+	right: 100%;
+}
+
+
+.cl-orange, .cl-orange:hover{
+	color: #e77b4e;
+}
+.cl-gray, .cl-gray:hover{
+	color: #666;
+}
+.bg-black,
+.bg-orange{
+	position: absolute;
+	width: 100%;
+  height: 100%;
+  -webkit-opacity: 0.5;
+  -moz-opacity: 0.5;
+  opacity: 0.5;
+  filter:alpha(opacity=50);
+  background-color: #000;
+}
+.bg-orange{
+  -webkit-opacity: 0.7;
+  -moz-opacity: 0.7;
+  opacity: 0.7;
+  filter:alpha(opacity=70);
+  background-color: #E77B4E;
+}
+.box-shadow{
+	border: 1px solid #e5e5e5;
+	-webkit-box-shadow: 0px 0px 8px 2px #e5e5e5;
+	box-shadow: 0px 0px 8px 2px #e5e5e5;
+	background-color: #fff;
+}
+.text-over{
+	white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+
+
+.table{
+	display: table;
+}
+.table.fixed{
+	table-layout: fixed;
+}
+.table-row{
+	display: table-row;
+}
+.table-cell{
+	display: table-cell;
+}
+.table-cell.middle{
+	vertical-align: middle;
+}
+
+
+
+.header{
+	background-color: #fff;
+}
+.header>.header-top{
+	line-height: 30px;
+	border-bottom: 1px solid #eeeeee;
+}
+.header-top .top-adr{
+	display: inline-block;
+	margin-right: 37px;
+	line-height: 37px;
+	cursor: pointer;
+}
+.header-top .top-adr>.fa{
+	margin-left: 3px;
+	font-size: 16px;
+}
+.header-top .header-search{
+	position: relative;
+	display: inline-block;
+  width: 180px;
+	height: 27px;
+	vertical-align: middle;
+	border: 1px solid #d3d3d3;
+}
+.header-top .header-search>input{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 25px;
+	padding-left: 2px;
+	padding-right: 27px;
+	border: none;
+	outline: none;
+}
+.header-top .header-search>.fa-search{
+	position: absolute;
+	top: 0px;
+  right: -1px;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  color: #fff;
+  background-color: #d3d3d3;
+}
+.header-top ul>li+li{
+	margin-left: 30px;
+}
+.header-top ul>li a{
+  line-height: 37px;
+	vertical-align: middle;
+}
+.header-top ul>li .cl-orange{
+	font-size: 26px;
+	font-weight: 600;
+	line-height: 36px;
+}
+.header>.header-bottom{
+	width: 100%;
+}
+.header-bottom .header-logo{
+	width: 252px;	
+	height: 65px;
+	padding: 2px 0;
+}
+.header-bottom .header-nav>li+li{
+	margin-left: 50px;
+}
+.header-bottom .header-nav>li>a{
+	display: block;
+  padding-top: 8.5px;
+  padding-bottom: 8.5px;
+	text-align: center;
+}
+.header-bottom .header-nav>li:hover>a{
+	border-bottom: 4px solid #e77b4e;
+}
+.header-bottom .header-nav>li span{
+	display: block;
+	font-size: 16px;
+	line-height: 22px;
+}
+.header-bottom .header-nav>li .nav-en{
+	font-size: 12px;
+	color: #666;
+}
+.header-bottom .header-lawyer{
+	position: relative;
+}
+.header-bottom .header-lawyer>div{
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	height: 100%;
+	margin-left: -338px;
+}
+.header-bottom .header-lawyer .lawyer-pic{
+  display: inline-block;
+  height: 100%;
+  padding-top: 20px;
+  padding-right: 110px;
+  vertical-align: top;
+  overflow: hidden;
+}
+.header-bottom .header-lawyer .lawyer-pic>img{
+	width: 100%;
+}
+.header-bottom .header-lawyer .lawyer-info{
+  display: inline-block;
+  position: relative;
+  top: 50%;
+  margin-top: -150px;
+	font-size: 18px;
+	color: #fff;
+}
+.header-bottom .header-lawyer .lawyer-info>div{
+	margin-bottom: 10px;
+}
+.header-bottom .header-lawyer .lawyer-info a{
+	margin-top: 15px;
+}
+.header-bottom .header-lawyer .lawyer-info .fa{
+	margin-right: 3px;
+}
+
+
+
+.main-nav{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.main-nav .fa-home{
+	font-size: 20px;
+	margin-right: 5px;
+	vertical-align: text-bottom;
+}
+.main-nav .nav-path+.nav-path:before{
+	content: '>';
+	display: inline-block;
+	margin-right: 4px;
+}
+
+
+
+.footer .footer-link{
+	padding-top: 13px;
+	padding-bottom: 32px;
+	border-bottom: 1px solid #d9d9d9;
+}
+.footer .footer-link>p{
+	margin-bottom: 5px;
+	font-size: 16px;
+}
+.footer .footer-link a{
+	margin-right: 10px;
+}
+.footer .footer-title{
+	margin: 20px 0;
+}
+.footer .footer-title>span{
+	display: block;
+	font-size: 18px;
+	font-weight: 600;
+}
+.footer .footer-title>.en{
+	font-size: 14px;
+	font-weight: 100;
+}
+.footer .footer-box{
+	width: 50%;
+}
+.footer .footer-box .quick-nav{
+	margin-bottom: 30px;
+}
+.footer .footer-box .quick-nav>a{
+  margin-right: 10px;
+	font-size: 16px;
+}
+.footer .footer-box .cl-orange{
+	font-size: 30px;
+}
+.footer .footer-attention{
+	width: 17%;
+}
+.footer .footer-attention .attention{
+	width: 150px;
+	height: 150px;
+	border: 1px solid #dcdcdc;
+	background: url(../img/qrcode.jpg) no-repeat left;
+}
+.footer .contact>li{
+	margin-bottom: 10px;
+	font-size: 16px;
+}
+.footer .contact>li>i{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	margin-right: 5px;
+	vertical-align: text-top;
+	background-image: url(../img/icons.png);
+	background-repeat: no-repeat;
+}
+.footer .contact>li>i.footer-icon-phone{
+	background-position: -139px 0;
+}
+.footer .contact>li>i.footer-icon-fax{
+	background-position: -99px 0;
+}
+.footer .contact>li>i.footer-icon-mail{
+	background-position: -119px 0;
+}
+.footer .contact>li>i.footer-icon-adr{
+	background-position: -79px 0;
+}
+
+
+
+.box-title{
+	margin-top: 40px;
+	margin-bottom: 40px;
+	padding-left: 20px;
+	font-size: 22px;
+	font-weight: 600;
+}
+.box-title.font30{
+	font-size: 30px;
+}
+.box-title.font20{
+	font-size: 20px;
+	font-weight: normal;
+}
+.box-title .dot-left,
+.box-title .dot-right{
+	position: relative;
+}
+.box-title .fa-circle{
+	position: absolute;
+	top: 0px;
+	font-size: 14px;
+	line-height: 22px;
+}
+.box-title.font30 .fa-circle{
+	line-height: 30px;
+}
+.box-title.font20 .fa-circle{
+	line-height: 20px;
+}
+.box-title .dot-left>.fa-circle{
+	left: -20px;
+}
+.box-title .dot-right>.fa-circle{
+	right: -20px;
+}
+.box-title>.title-sm{
+	display: block;
+	font-size: 14px;
+	font-weight: normal;
+}
+
+.title-line{
+	position: relative;
+	line-height: 40px;
+	font-size: 20px;
+	border-bottom: 1px solid #e6e6e6;
+}
+.title-line>b:after{
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 246px;
+	height: 1px;
+	background-color: #E77B4E;
+}
+
+.title-bgCl>span{
+	padding: 6px 4px;
+	font-size: 18px;
+	color: #fff;
+	background-color: #E77B4E;
+}
+
+.title-line2>b{
+	display: block;
+	position: relative;
+	font-size: 22px;
+}
+.title-line2>b:before,
+.title-line2>b:after{
+	content: '';
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+	width: 44%;
+	border-top: 1px solid #a6a6a6;
+}
+.title-line2>b:before{
+	left: 0;
+}
+.title-line2>b:after{
+	right: 0;
+}
+
+.title-line3:after{
+	content: '';
+	display: block;
+	width: 50px;
+	height: 2px;
+	margin: 3px auto 0;
+	background-color: #E77B4E;
+}
+
+
+.lawyer{
+	position: relative;
+	width: 100%;
+	height: 100%;
+  overflow: hidden;
+}
+.lawyer .bg-black{
+	bottom: -100%;
+	height: 60px;
+}
+.lawyer .bg-orange{
+	bottom: -100%;
+	height: 25px;
+}
+.lawyer .bg-black+img{
+	width: 100%;
+  height: 100%;
+}
+.lawyer .lawyer-title{
+	position: absolute;
+	bottom: -100%;
+	width: 100%;
+	height: 25px;
+	font-size: 18px;
+	color: #fff;
+	z-index: 1;
+}
+.lawyer .lawyer-cont{
+	position: absolute;
+	bottom: -100%;
+	width: 100%;
+	height: 60px;
+  padding-top: 6.5px;
+	color: #fff;
+	z-index: 1;
+}
+.lawyer .lawyer-cont>p{
+	margin-bottom: 0;
+	font-size: 16px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.lawyer .lawyer-cont .lawyer-nam{
+	font-size: 18px;
+	font-weight: 600;
+}
+.lawyer .lawyer-cont .icon-phone{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	margin-right: 5px;
+}
+
+
+
+
+@media (max-width: 1200px){
+	.container {
+    width: 1000px;
+	}
+	.header-top .top-adr{
+		margin-right: 20px;
+	}	
+	.header-top ul>li+li{
+		margin-left: 20px;
+	}
+	.header-bottom .header-nav>li+li{
+		margin-left: 25px;
+	}
+	.header-bottom .header-lawyer .lawyer-info{
+	  margin-top: -120px;
+		font-size: 16px;
+	}
+	.header-bottom .header-lawyer .lawyer-info>div{
+		margin-bottom: 5px;
+	}
+	.header-bottom .header-lawyer .lawyer-info a{
+		margin-top: 10px;
+	}
+}
